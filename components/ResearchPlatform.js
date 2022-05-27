@@ -8,7 +8,7 @@ const ResearchPlatform = () => {
           Cutting Edge Research Platform
         </h2>
         <p className="text-white mb-10">
-          We are constantly working to further expand Zortrax Endureal's
+          We are constantly working to further expand Zortrax Endureals
           capabilities. This 3D printer is used in numerous joint research
           projects like the one we do with the support of the European Space
           Agency.
@@ -18,7 +18,6 @@ const ResearchPlatform = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/esa1.gif"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -28,7 +27,7 @@ const ResearchPlatform = () => {
               Dual extrusion LPD Plus technology has been traditionally used to
               print support structures out of a dedicated support material
               different from the one used for the model. But we wanted to take
-              it one step further and build a capability to use the Endureal's
+              it one step further and build a capability to use the Endureals
               LPD Plus technology for printing composite components out of two
               blends of PEEK in one go. For space applications, we 3D printed
               such composite models with standard Z-PEEK and ESA-developed
@@ -39,7 +38,6 @@ const ResearchPlatform = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/esa2.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -60,7 +58,6 @@ const ResearchPlatform = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/esa3.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -72,7 +69,7 @@ const ResearchPlatform = () => {
               Outgassing is a process of releasing gases accumulated in a solid
               in high vacuum. In space, such gases can condense on electronics
               or sensors and severely impair their performance. Z-PEEK passed
-              all necessary tests and complies with ESA's ECSS-Q-ST-70-02C
+              all necessary tests and complies with ESAs ECSS-Q-ST-70-02C
               outgassing standard
             </p>
           </div>

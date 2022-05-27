@@ -18,7 +18,6 @@ const IntegratedPrototyping = () => {
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
-              srcset=""
             />
           </div>
           <div className="lg:w-1/2 px-4 lg:px-14 pt-14">
@@ -27,18 +26,17 @@ const IntegratedPrototyping = () => {
             </h2>
             <p>
               Zortrax products, the Endureal included, can work together in
-              highly scalable, modular systems. While the Endureal's main
-              purpose is printing critical components out of very advanced
-              materials, the early prototyping tasks can be easily ceded to
-              clusters of low-maintenance desktop 3D printers like the M Series
-              Plus or M300 Dual.
+              highly scalable, modular systems. While the Endureals main purpose
+              is printing critical components out of very advanced materials,
+              the early prototyping tasks can be easily ceded to clusters of
+              low-maintenance desktop 3D printers like the M Series Plus or M300
+              Dual.
             </p>
           </div>
           <div className="hidden lg:block lg:w-1/2">
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
-              srcset=""
             />
           </div>
         </div>
@@ -47,7 +45,6 @@ const IntegratedPrototyping = () => {
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
-              srcset=""
             />
           </div>
           <div className="lg:w-1/2 p-14">
@@ -82,7 +79,6 @@ const IntegratedPrototyping = () => {
             <img
               src="https://zortrax.com/static/img/endureal/industral3b.jpg"
               alt=""
-              srcset=""
             />
           </div>
         </div>
@@ -91,7 +87,6 @@ const IntegratedPrototyping = () => {
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
-              srcset=""
             />
           </div>
           <div className="w-1/2 p-14">

@@ -12,7 +12,6 @@ const Hero = () => {
             <img
               src="https://cf.zortrax.com/static/img/endureal/endureal_full-2.png"
               alt=""
-              srcset=""
               className="lg:hidden mx-auto w-3/4"
             />
             <h1 className="font-semibold text-4xl text-center lg:text-7xl lg:text-left text-white pb-2">
@@ -35,7 +34,6 @@ const Hero = () => {
             <img
               src="https://cf.zortrax.com/static/img/endureal/endureal_full-2.png"
               alt=""
-              srcset=""
               className="hidden lg:block"
             />
           </div>

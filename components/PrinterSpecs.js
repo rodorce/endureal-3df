@@ -9,7 +9,6 @@ const PrinterSpecs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/dual.jpg"
               alt=""
-              srcset=""
               className="object-none h-full w-full"
             />
           </div>
@@ -45,7 +44,6 @@ const PrinterSpecs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/platform.jpg"
               alt=""
-              srcset=""
               className="h-full w-full object-none"
             />
           </div>
@@ -63,13 +61,12 @@ const PrinterSpecs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/platform.jpg"
               alt=""
-              srcset=""
               className="h-full w-full object-none"
             />
           </div>
         </div>
       </div>
-      <video class="video" loop="" autoplay="" muted="">
+      <video className="video" loop="" autoPlay="" muted="">
         <source
           src="https://cf.zortrax.com/static/img/endureal/bar_2.mp4"
           type="video/mp4"

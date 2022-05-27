@@ -17,7 +17,6 @@ const SpecsGrid = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/title1.png"
               alt=""
-              srcset=""
             />
             <h3 className="font-semibold text-xl px-4 py-2">
               Blackout Response System
@@ -33,14 +32,13 @@ const SpecsGrid = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/title2.png"
               alt=""
-              srcset=""
             />
             <h3 className="font-semibold text-xl px-4 py-2">
               Monitored printing process
             </h3>
             <p className="px-4 pb-4">
               Printing progress can be monitored remotely with a heat-resistant
-              camera installed in the Endureal's printing chamber. The camera is
+              camera installed in the Endureals printing chamber. The camera is
               capable of live video streaming and designed to work in demanding
               conditions.
             </p>
@@ -49,7 +47,6 @@ const SpecsGrid = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/title3.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -66,13 +63,12 @@ const SpecsGrid = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2019/09/title4.png"
               alt=""
-              srcset=""
             />
             <h3 className="font-semibold text-xl px-4 py-2">
-              Controlled filament's compartment
+              Controlled filament`&#34;`s compartment
             </h3>
             <p className="px-4 pb-4">
-              Filaments’ compartment creates an optimal environment for storing
+              Filaments compartment creates an optimal environment for storing
               material spools. It is equipped with a moisture absorber which is
               responsible for reducing humidity to levels appropriate for highly
               hygroscopic materials.

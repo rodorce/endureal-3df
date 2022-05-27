@@ -18,7 +18,6 @@ const FlameRetardant = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei1.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -37,7 +36,6 @@ const FlameRetardant = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei2.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -56,7 +54,6 @@ const FlameRetardant = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei3.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -65,7 +62,7 @@ const FlameRetardant = () => {
             <p className="px-4 pb-4">
               Z-PEI 9085 retains its mechanical properties in temperatures
               reaching 167° C which means its performance is on par with
-              aerospace-grade aluminum 6061. That's why Z-PEI can be used for
+              aerospace-grade aluminum 6061. That is why Z-PEI can be used for
               various parts in automobile engines which typically have operating
               temperatures between 90° C and 105° C.
             </p>
@@ -74,7 +71,6 @@ const FlameRetardant = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei4.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">

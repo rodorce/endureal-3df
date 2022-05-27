@@ -25,12 +25,12 @@ const Performance = () => {
                 components to prevent overheating.
               </li>
               <li className="pb-4">
-                Capacitive sensors measure build platform and nozzles' relative
+                Capacitive sensors measure build platform and nozzles relative
                 position to ensure calibration is on point.
               </li>
               <li className="pb-4">
                 Optical sensors working with no mechanical parts ensure precise
-                extruder's positioning in all axes.
+                extruders positioning in all axes.
               </li>
               <li className="pb-4">
                 Fan stop sensors immediately detect when fans are disconnected
@@ -42,7 +42,7 @@ const Performance = () => {
               </li>
             </ul>
 
-            <button class="bg-transparent hover:bg-black text-white-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-black rounded">
+            <button className="bg-transparent hover:bg-black text-white-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-black rounded">
               Ver producto
             </button>
           </div>

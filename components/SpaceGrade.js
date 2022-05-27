@@ -11,7 +11,7 @@ const Specs = () => {
           Z-PEEK is one of the strongest polymers on the planet. It has
           strength-to-weight ratio comparable to stainless steel and thermal
           properties suitable for exposure to low Earth orbit environment.
-          Z-PEEK meets ESA's outgassing requirements specified in the
+          Z-PEEK meets ESAs outgassing requirements specified in the
           ECSS-Q-ST-70-02C standard.
         </p>
         <div className="flex flex-col lg:flex-row pt-4">
@@ -19,7 +19,6 @@ const Specs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/z-peek_img3.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -37,7 +36,6 @@ const Specs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/z-peek_img4.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -45,7 +43,7 @@ const Specs = () => {
             </h3>
             <p className="px-4 pb-4">
               Z-PEEK parts 3D printed on the Zortrax Endureal 3D printer were
-              tested at ESA's ESTEC facilities in Netherlands and found to be
+              tested at ESAs ESTEC facilities in Netherlands and found to be
               among the strongest ever reported in scientific literature.
               Flexural strength at yield measured at 146 MPa and flexural
               modulus standing at 3500 MPa are values previously achievable only
@@ -56,7 +54,6 @@ const Specs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/z-peek_img5.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -68,7 +65,7 @@ const Specs = () => {
               Outgassing is a process of releasing gases accumulated in a solid
               in high vacuum. In space, such gases can condense on electronics
               or sensors and severely impair their performance. Z-PEEK passed
-              all necessary tests and complies with ESA's ECSS-Q-ST-70-02C
+              all necessary tests and complies with ESAs ECSS-Q-ST-70-02C
               outgassing standard
             </p>
           </div>
@@ -78,7 +75,6 @@ const Specs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/z-peek_img1.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -97,14 +93,13 @@ const Specs = () => {
             <img
               src="https://cf.zortrax.com/wp-content/uploads/2022/05/z-peek_img2.png"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
               High wear resistance
             </h3>
             <p className="px-4 pb-4">
-              PEEK's wear resistance has been confirmed to be sufficient for
+              PEEKs wear resistance has been confirmed to be sufficient for
               PEEK/stainless steel gear pairs working at 1600 rpm for over 22
               million cycles under 1 Nm load. PEEK is also strong enough for
               PEEK/metal sliding systems operating in both atmospheric and

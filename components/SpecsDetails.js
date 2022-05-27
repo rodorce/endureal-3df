@@ -13,7 +13,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Device
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs">
+              <table className="table-fixed pt-2 border-2 text-xs">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
@@ -90,7 +90,7 @@ const SpecsDetails = () => {
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
                       Touchscreen
                     </td>
-                    <td className="w-1/2 p-2">7" IPS 1024 x 600</td>
+                    <td className="w-1/2 p-2">7`&#34;` IPS 1024 x 600</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
@@ -105,7 +105,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Electrical
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs w-full">
+              <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
@@ -132,7 +132,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Software
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs w-full">
+              <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
@@ -162,7 +162,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 In the box
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs w-full">
+              <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-medium w-full p-2 border-r-2">
@@ -185,7 +185,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Printing
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs w-full">
+              <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
@@ -220,7 +220,7 @@ const SpecsDetails = () => {
                       Platform leveling
                     </td>
                     <td className="w-1/2 p-2">
-                      Automatic measurement of platform points' height
+                      Automatic measurement of platform points height
                     </td>
                   </tr>
                 </tbody>
@@ -230,7 +230,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Temperature
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs w-full">
+              <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
@@ -269,7 +269,7 @@ const SpecsDetails = () => {
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Filaments
               </h4>
-              <table class="table-fixed pt-2 border-2 text-xs w-full">
+              <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">

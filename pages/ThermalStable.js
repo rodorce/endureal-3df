@@ -18,7 +18,6 @@ const ThermalStable = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei1010_1.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">High-rigidity</h3>
@@ -33,7 +32,6 @@ const ThermalStable = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei1010_2.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
@@ -51,7 +49,6 @@ const ThermalStable = () => {
             <img
               src="https://zortrax.com/static/img/endureal/pei1010_3.jpg"
               alt=""
-              srcset=""
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
