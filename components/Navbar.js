@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import Router from "next/router";
 import { Menu } from "iconoir-react";
 const Navbar = () => {
   const [background, setBackground] = useState("bg-white h-fit");
@@ -24,11 +23,11 @@ const Navbar = () => {
           className="lg:hidden text-black self-center"
           onClick={handleMenu}
         />
-        {/* <img
+        <img
           className="py-1 w-64 justify-self-start mr-auto"
           src="/assets/img/logo-3df.png"
           alt="3d-factory"
-        /> */}
+        />
       </div>
       <ul
         className={`${showMenu} flex-col text-center lg:flex-row flex-1 justify-start lg:justify-end items-center gap-9 text-bookmark-black text-sm`}

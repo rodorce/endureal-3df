@@ -9,21 +9,29 @@ import SpaceGrade from "../components/SpaceGrade";
 import SpecsDetails from "../components/SpecsDetails";
 import SpecsGrid from "../components/SpecsGrid";
 import ThermalStable from "./ThermalStable";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
-      <Hero />
-      <SpecsGrid />
-      <Performance />
-      <SpaceGrade />
-      <ThermalStable />
-      <FlameRetardant />
-      <ResearchPlatform />
-      <PrinterSpecs />
-      <IntegratedPrototyping />
-      <SpecsDetails />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Zortrax Endureal - 3D Factory MX</title>
+        <meta name="description" content="Zortrax Endural 3D Factory MX" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div>
+        <Hero />
+        <SpecsGrid />
+        <Performance />
+        <SpaceGrade />
+        <ThermalStable />
+        <FlameRetardant />
+        <ResearchPlatform />
+        <PrinterSpecs />
+        <IntegratedPrototyping />
+        <SpecsDetails />
+        <Footer />
+      </div>
+    </>
   );
 }
