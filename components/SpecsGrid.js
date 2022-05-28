@@ -2,7 +2,7 @@ import React from "react";
 
 const SpecsGrid = () => {
   return (
-    <div className="bg-[#ECEFF0] w-full h-full">
+    <div className="bg-[#ECEFF0] w-full h-full" id="safety_systems">
       <div className="container py-14">
         <h2 className="font-semibold text-5xl text-center py-12">
           Industrial Safety Systems

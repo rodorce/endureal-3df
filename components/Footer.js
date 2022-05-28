@@ -20,18 +20,16 @@ const Footer = () => {
                 <Link href="/">Inicio</Link>
               </li>
               <li className="p-3">
-                <Link href="/manufacturing">Industrial Safety Systems</Link>
+                <Link href="#safety_systems">Industrial Safety Systems</Link>
               </li>
               <li className="p-3">
-                <Link href="/materials">Performance</Link>
+                <Link href="#performance">Performance</Link>
               </li>
               <li className="p-3">
-                <a href="#recommendation">Applications</a>
+                <Link href="#applications">Applications</Link>
               </li>
               <li className="p-3">
-                <a href="https://3dfactory.mx" rel="external">
-                  Integrated Prototyping
-                </a>
+                <Link href="#prototyping">Integrated Prototyping</Link>
               </li>
             </ul>
           </div>

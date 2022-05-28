@@ -2,7 +2,7 @@ import React from "react";
 
 const Performance = () => {
   return (
-    <div className="bg-[#ECEFF0] w-full h-full">
+    <div className="bg-[#ECEFF0] w-full h-full" id="performance">
       <div className="container py-14">
         <div className="box text-left bg-[#C27B4D] py-12 px-4 text-white flex flex-col mx-auto lg:flex-row">
           <div className="lg:w-1/3 w-1/2 lg:mr-12 ">

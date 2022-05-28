@@ -36,16 +36,18 @@ const Navbar = () => {
         <li className="cursor-pointer">
           <a href="#">Inicio</a>
         </li>
-        <a href="#recommendation">
+        <a href="#safety_systems">
           <li className="cursor-pointer">Industrial Safety Systems</li>
         </a>
-        <Link href="/manufacturing" passHref>
+        <Link href="#performance" passHref>
           <li className="cursor-pointer">Performance</li>
         </Link>
-        <Link href="/materials" passHref>
+        <Link href="#applications" passHref>
           <li className="cursor-pointer">Applications</li>
         </Link>
-        <li onClick={() => Router.push("/blog")}>Integrated Prototyping</li>
+        <Link href="#prototyping" passHref>
+          <li className="cursor-pointer">Integrated Prototyping</li>
+        </Link>
         <li>
           <a href="mailto:ventas@3dfatory.mx">
             <button

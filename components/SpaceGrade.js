@@ -2,7 +2,10 @@ import React from "react";
 
 const Specs = () => {
   return (
-    <div className="bg-[url('https://cf.zortrax.com/static/img/endureal/z-peek_bg.jpg')] bg-cover">
+    <div
+      className="bg-[url('https://cf.zortrax.com/static/img/endureal/z-peek_bg.jpg')] bg-cover"
+      id="applications"
+    >
       <div className="container py-14">
         <h2 className="font-normal text-5xl text-center py-6 text-white">
           Z-PEEK space-grade outgassing-compliant filament

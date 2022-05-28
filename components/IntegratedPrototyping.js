@@ -2,7 +2,7 @@ import React from "react";
 
 const IntegratedPrototyping = () => {
   return (
-    <div className="bg-[#CFD0D4]">
+    <div className="bg-[#CFD0D4]" id="prototyping">
       <div className="container p-14">
         <h2 className="font-semibold text-4xl text-center pb-8">
           Integrated Prototyping
