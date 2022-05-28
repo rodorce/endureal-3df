@@ -7,8 +7,8 @@ const SpecsDetails = () => {
         <h2 className="font-semibold text-4xl text-center">
           Specifications for Zortrax Endureal
         </h2>
-        <div className="flex flex-row">
-          <div className="flex flex-col mt-14 w-1/2 px-6">
+        <div className="flex lg:flex-row flex-col">
+          <div className="flex flex-col mt-14 lg:w-1/2 w-full px-6">
             <div className="">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Device
@@ -180,7 +180,7 @@ const SpecsDetails = () => {
               </table>
             </div>
           </div>
-          <div className="flex flex-col mt-14 w-1/2 px-6">
+          <div className="flex flex-col mt-14 lg:w-1/2 px-6">
             <div className="">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
                 Printing
