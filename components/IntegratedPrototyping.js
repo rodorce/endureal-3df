@@ -13,15 +13,16 @@ const IntegratedPrototyping = () => {
           high-performing part using one manufacturing device.
         </p>
 
-        <div className="flex flex-col lg:flex-row pt-14 pb-4 lg:pb-0">
+        <div className="flex flex-col lg:flex-row pt-14">
           <div className="block lg:hidden">
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
+              className="w-1/2 mx-auto lg:w-full lg:mx-0"
             />
           </div>
-          <div className="lg:w-1/2 px-4 lg:px-14 pt-14">
-            <h2 className="font-normal text-2xl lg:text-4xl pb-8 text-center">
+          <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
+            <h2 className="font-normal text-2xl lg:text-4xl lg:pb-8 pb-4 text-center">
               Modular manufacturing architecture
             </h2>
             <p>
@@ -37,18 +38,20 @@ const IntegratedPrototyping = () => {
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
+              className="w-1/2 mx-auto lg:w-full lg:mx-0"
             />
           </div>
         </div>
-        <div className="flex lg:flex-row flex-col">
+        <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
+              className="w-1/2 mx-auto lg:w-full lg:mx-0"
             />
           </div>
-          <div className="lg:w-1/2 p-14">
-            <h2 className="font-normal text-4xl pb-8">
+          <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
+            <h2 className="font-normal text-2xl lg:text-4xl lg:pb-8 pb-4 text-center">
               Cloud based management
             </h2>
             <p>
@@ -62,9 +65,18 @@ const IntegratedPrototyping = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row ">
-          <div className="w-1/2 p-14">
-            <h2 className="font-normal text-4xl pb-8">Unlimited scalability</h2>
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
+            <div className="lg:hidden lg:w-1/2 mx-auto">
+              <img
+                src="https://zortrax.com/static/img/endureal/industral3b.jpg"
+                alt=""
+                className="w-1/2 mx-auto lg:w-full lg:mx-0"
+              />
+            </div>
+            <h2 className="font-normal text-2xl lg:text-4xl pb-8 pt-6 text-center">
+              Unlimited scalability
+            </h2>
             <p>
               Zortrax industrial systems are designed in such a way that new
               devices can be added at all times without incurring additional
@@ -75,22 +87,25 @@ const IntegratedPrototyping = () => {
               post-processing capabilities.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="hidden lg:w-1/2 lg:block">
             <img
               src="https://zortrax.com/static/img/endureal/industral3b.jpg"
               alt=""
             />
           </div>
         </div>
-        <div className="flex flex-row ">
-          <div className="w-1/2">
+        <div className="flex flex-col lg:flex-row pb-14">
+          <div className="lg:w-1/2">
             <img
               src="https://zortrax.com/static/img/endureal/industral1.jpg"
               alt=""
+              className="w-1/2 mx-auto lg:w-full lg:mx-0"
             />
           </div>
-          <div className="w-1/2 p-14">
-            <h2 className="font-normal text-4xl pb-8">Cost-free flexibility</h2>
+          <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
+            <h2 className="font-normal lg:text-4xl pb-8 text-center text-2xl">
+              Cost-free flexibility
+            </h2>
             <p>
               A Zortrax industrial system comprising of the Endureal 3D printer
               supported by a cluster of M Series machines and the Apoller
