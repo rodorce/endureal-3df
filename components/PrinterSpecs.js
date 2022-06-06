@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const PrinterSpecs = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="bg-[#29241f]">
@@ -14,25 +16,15 @@ const PrinterSpecs = () => {
           </div>
           <div className="w-full md:w-1/2 lg:p-24  p-16">
             <h2 className="text-4xl font-semibold mb-16 text-white">
-              Industrial dual-extrusion
+              {t("industrial_dual")}
             </h2>
-            <p className="text-white pb-14">
-              The Endureal has an advanced dual-extrusion system capable of
-              printing high-temperature filaments with a specially dedicated
-              support material. The extruder components and cables are thermally
-              shielded from the main chamber with an elastic, nanoporous
-              insulator to achieve the lowest possible thermal conductivity.
-              Designed for processing challenging materials, the Endureal can
-              also work with a wide range of cost-effective filaments like
-              Z-ULTRAT Plus. The printer supports both single- and
-              dual-extrusion modes.
-            </p>
+            <p className="text-white pb-14">{t("industrial_dual_desc")}</p>
             <div className="flex flex-row text-white">
               <div>
-                <span className="pr-12">Dual extrusion</span>
+                <span className="pr-12">{t("dual_extrusion")}</span>
               </div>
               <div>
-                <span>Single extrusion</span>
+                <span>{t("single_extrusion")}</span>
               </div>
             </div>
           </div>
@@ -49,13 +41,9 @@ const PrinterSpecs = () => {
           </div>
           <div className="md:w-1/2 px-24 pt-24">
             <h2 className="text-4xl font-semibold mb-16 text-white">
-              Heated aluminum build-platform
+              {t("heated_aluminum")}
             </h2>
-            <p className="text-white pb-14">
-              The Endureal is equipped with an aluminum build platform covered
-              with a PEI plate to ensure proper adhesion of high-performance
-              polymers. The platform can be heated up to 220° C.
-            </p>
+            <p className="text-white pb-14">{t("heated_aluminum_desc")}</p>
           </div>
           <div className="hidden md:block md:w-1/2">
             <img

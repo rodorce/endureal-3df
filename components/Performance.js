@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import React from "react";
 
 const Performance = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-[#ECEFF0] w-full h-full" id="performance">
       <div className="container py-14">
@@ -13,37 +15,22 @@ const Performance = () => {
           </div>
           <div className="flex justify-center flex-col lg:w-1/2">
             <h2 className="font-semibold text-5xl text-left py-6">
-              Performance under control
+              {t("performance_title")}
             </h2>
-            <p>
-              A wide array of sensors ensure that the Zortrax Endureal always
-              delivers best possible performance.
-            </p>
+            <p>{t("performance_desc")}</p>
             <ul className="pt-6 list-disc">
-              <li className="pb-4">
-                Temperature sensors constantly measure temperature of crucial
-                components to prevent overheating.
-              </li>
-              <li className="pb-4">
-                Capacitive sensors measure build platform and nozzles relative
-                position to ensure calibration is on point.
-              </li>
-              <li className="pb-4">
-                Optical sensors working with no mechanical parts ensure precise
-                extruders positioning in all axes.
-              </li>
-              <li className="pb-4">
-                Fan stop sensors immediately detect when fans are disconnected
-                or malfunctioning to ensure adequate cooling.
-              </li>
-              <li className="pb-4">
-                Extruder sensors detect a disconnection or failure in the
-                extruder to ensure seamless operation.
-              </li>
+              {/* {console.log(t("performance_features", { returnObjects: true }))} */}
+              {Object.values(
+                t("performance_features", { returnObjects: true })
+              ).map((feature, index) => (
+                <li className="pb-4" key={index}>
+                  {feature}
+                </li>
+              ))}
             </ul>
 
             <button className="bg-transparent hover:bg-black text-white-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-black rounded">
-              Ver producto
+              {t("product_btn")}
             </button>
           </div>
         </div>

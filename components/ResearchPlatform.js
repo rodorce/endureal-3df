@@ -1,18 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ResearchPlatform = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-[url('https://cf.zortrax.com/static/img/endureal/esa_bg_v2.jpg')] bg-cover">
       <div className="container py-14">
         <h2 className="font-normal text-5xl text-center py-6 text-white">
-          Cutting Edge Research Platform
+          {t("cutting_edge")}
         </h2>
-        <p className="text-white mb-10">
-          We are constantly working to further expand Zortrax Endureals
-          capabilities. This 3D printer is used in numerous joint research
-          projects like the one we do with the support of the European Space
-          Agency.
-        </p>
+        <p className="text-white mb-10">{t("cutting_edge_desc")}</p>
         <div className="flex flex-col lg:flex-row pt-4">
           <div className="lg:w-1/3 mx-4 bg-white mb-4">
             <img
@@ -21,18 +18,9 @@ const ResearchPlatform = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              Reinventing dual extrusion
+              {t("reinventing_dual")}
             </h3>
-            <p className="px-4 pb-4">
-              Dual extrusion LPD Plus technology has been traditionally used to
-              print support structures out of a dedicated support material
-              different from the one used for the model. But we wanted to take
-              it one step further and build a capability to use the Endureals
-              LPD Plus technology for printing composite components out of two
-              blends of PEEK in one go. For space applications, we 3D printed
-              such composite models with standard Z-PEEK and ESA-developed
-              electrically conductive blend of PEEK.
-            </p>
+            <p className="px-4 pb-4">{t("reinventing_dual_desc")}</p>
           </div>
           <div className="lg:w-1/3 mx-4 bg-white mb-4">
             <img
@@ -41,18 +29,9 @@ const ResearchPlatform = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              First research paper co-authorized with ESA
+              {t("first_research")}
             </h3>
-            <p className="px-4 pb-4">
-              Developing a technology to apply metallic coatings and reinforcing
-              structures to parts 3D printed with Z-PEEK on the Zortrax Endureal
-              is the aim of the research project realized by Zortrax under ESA
-              contract with Astronika, a company specializing in space
-              mechanisms, and Crido R&D, who are responsible for electroplating
-              solutions. Z-PEEK parts covered with various metals are expected
-              to provide high-quality, lightweight alternative to pure metals
-              alloys.
-            </p>
+            <p className="px-4 pb-4">{t("first_research_desc")}</p>
           </div>
           <div className="lg:w-1/3 mx-4 bg-white mb-4">
             <img
@@ -61,17 +40,9 @@ const ResearchPlatform = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              Covering Z-PEEK parts with metals
+              {t("covering_zpeek")}
             </h3>
-            <p className="px-4 pb-4">
-              Materials meant for space applications like Z-PEEK must pass
-              rigorous outgassing tests before they are cleared for flight.
-              Outgassing is a process of releasing gases accumulated in a solid
-              in high vacuum. In space, such gases can condense on electronics
-              or sensors and severely impair their performance. Z-PEEK passed
-              all necessary tests and complies with ESAs ECSS-Q-ST-70-02C
-              outgassing standard
-            </p>
+            <p className="px-4 pb-4">{t("covering_zpeek_desc")}</p>
           </div>
         </div>
       </div>

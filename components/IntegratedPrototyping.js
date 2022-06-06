@@ -1,17 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const IntegratedPrototyping = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-[#CFD0D4]" id="prototyping">
       <div className="container p-14">
         <h2 className="font-semibold text-4xl text-center pb-8">
-          Integrated Prototyping
+          {t("integrated_prototyping")}
         </h2>
-        <p className="text-center">
-          Wide range of materials supported by Zortrax Endureal makes it
-          possible to go from early low-cost prototypes to the final
-          high-performing part using one manufacturing device.
-        </p>
+        <p className="text-center">{t("integrated_prototyping_desc")}</p>
 
         <div className="flex flex-col lg:flex-row pt-14">
           <div className="block lg:hidden">
@@ -23,16 +21,9 @@ const IntegratedPrototyping = () => {
           </div>
           <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
             <h2 className="font-normal text-2xl lg:text-4xl lg:pb-8 pb-4 text-center">
-              Modular manufacturing architecture
+              {t("modular_manufacturing")}
             </h2>
-            <p>
-              Zortrax products, the Endureal included, can work together in
-              highly scalable, modular systems. While the Endureals main purpose
-              is printing critical components out of very advanced materials,
-              the early prototyping tasks can be easily ceded to clusters of
-              low-maintenance desktop 3D printers like the M Series Plus or M300
-              Dual.
-            </p>
+            <p>{t("modular_manufacturing_desc")}</p>
           </div>
           <div className="hidden lg:block lg:w-1/2">
             <img
@@ -52,17 +43,9 @@ const IntegratedPrototyping = () => {
           </div>
           <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
             <h2 className="font-normal text-2xl lg:text-4xl lg:pb-8 pb-4 text-center">
-              Cloud based management
+              {t("cloud_based")}
             </h2>
-            <p>
-              All network-enabled Zortrax 3D printers along with the staff
-              responsible for running them can be remotely managed with Zortrax
-              inCloud 3D printing management service. Professional and
-              Enterprise inCloud subscription plans enable organizing people
-              into teams with assigned 3D printers. Data on how human and 3D
-              printing resources have been employed is aggregated in neatly
-              spaced panels.
-            </p>
+            <p>{t("cloud_based_desc")}</p>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
@@ -75,17 +58,9 @@ const IntegratedPrototyping = () => {
               />
             </div>
             <h2 className="font-normal text-2xl lg:text-4xl pb-8 pt-6 text-center">
-              Unlimited scalability
+              {t("unlimited_scalability")}
             </h2>
-            <p>
-              Zortrax industrial systems are designed in such a way that new
-              devices can be added at all times without incurring additional
-              integration costs. It is possible to quickly install more clusters
-              of cost-efficient M Series machines when an organization needs to
-              increase production volume, more Endureal 3D printers for
-              high-tech applications, or more Apoller devices to expand
-              post-processing capabilities.
-            </p>
+            <p>{t("unlimited_scalability_desc")}</p>
           </div>
           <div className="hidden lg:w-1/2 lg:block">
             <img
@@ -104,17 +79,9 @@ const IntegratedPrototyping = () => {
           </div>
           <div className="lg:w-1/2 px-4 lg:px-14 lg:pt-14 pt-6">
             <h2 className="font-normal lg:text-4xl pb-8 text-center text-2xl">
-              Cost-free flexibility
+              {t("cost_free_flex")}
             </h2>
-            <p>
-              A Zortrax industrial system comprising of the Endureal 3D printer
-              supported by a cluster of M Series machines and the Apoller
-              post-processing devices leaves plenty of room for cost-free,
-              on-the-fly adjustments. Even projects that have reached the stage
-              where final parts are printed out of target materials on Endureal
-              3D printers can be quickly reversed to initial prototyping on M
-              Series machines with a few clicks in Zortrax inCloud.
-            </p>
+            <p>{t("cost_free_flex_desc")}</p>
           </div>
         </div>
       </div>

@@ -1,18 +1,16 @@
+import { t } from "i18next";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const FlameRetardant = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-[url('https://cf.zortrax.com/static/img/endureal/pei_bg.jpg')] bg-cover">
       <div className="container py-14">
         <h2 className="font-normal text-5xl text-center py-6 text-white">
-          Z-PEI 9085 flame-retardant aerospace-grade polymer
+          {t("zpei9085_title")}
         </h2>
-        <p className="text-white mb-10">
-          Based on a durable polyetherimide blend, Z-PEI 9085 has
-          strength-to-weight ratio comparable to aluminum 6061 with much better
-          thermal shock resistance. The material is designed primarily for
-          aerospace and automotive engineering applications.
-        </p>
+        <p className="text-white mb-10">{t("zpei9085_desc")}</p>
         <div className="flex flex-col lg:flex-row pt-4">
           <div className="lg:w-1/4 mx-4 bg-white mb-4">
             <img
@@ -21,16 +19,9 @@ const FlameRetardant = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              High flame-retardancy
+              {t("high_flame_retardancy")}
             </h3>
-            <p className="px-4 pb-4">
-              Z-PEI 9085 has a UL94 V-0 flammability rating and has been tested
-              in accordance with the FAR 25.853 procedures which means it can be
-              safely used in aerospace interiors. This flammability rating means
-              that a vertically oriented sample printed with Z-PEI 9085
-              extinguishes within 10 seconds from when the fire has been applied
-              to it.
-            </p>
+            <p className="px-4 pb-4">{t("high_flame_desc")}</p>
           </div>
           <div className="lg:w-1/4 mx-4 bg-white mb-4">
             <img
@@ -39,16 +30,9 @@ const FlameRetardant = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              Flight-readiness
+              {t("flight_readiness")}
             </h3>
-            <p className="px-4 pb-4">
-              Z-PEI 9085 has a UL94 V-0 flammability rating and has been tested
-              in accordance with the FAR 25.853 procedures which means it can be
-              safely used in aerospace interiors. This flammability rating means
-              that a vertically oriented sample printed with Z-PEI 9085
-              extinguishes within 10 seconds from when the fire has been applied
-              to it.
-            </p>
+            <p className="px-4 pb-4">{t("flight_readiness_desc")}</p>
           </div>
           <div className="lg:w-1/4 mx-4 bg-white mb-4">
             <img
@@ -57,15 +41,9 @@ const FlameRetardant = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              Excellent thermals
+              {t("excellent_thermals")}
             </h3>
-            <p className="px-4 pb-4">
-              Z-PEI 9085 retains its mechanical properties in temperatures
-              reaching 167° C which means its performance is on par with
-              aerospace-grade aluminum 6061. That is why Z-PEI can be used for
-              various parts in automobile engines which typically have operating
-              temperatures between 90° C and 105° C.
-            </p>
+            <p className="px-4 pb-4">{t("excellent_thermals_desc")}</p>
           </div>
           <div className="lg:w-1/4 mx-4 bg-white mb-4">
             <img
@@ -74,14 +52,9 @@ const FlameRetardant = () => {
             />
 
             <h3 className="font-semibold text-xl px-4 py-2">
-              Proven outgassing properties
+              {t("proven_outgassing")}
             </h3>
-            <p className="px-4 pb-4">
-              Z-PEI 9085 is made out of a proven blend of polyetherimide which
-              has passed rigorous outgassing tests performed by both NASA and
-              ESA. It is one of the few 3D printing materials cleared for use
-              onboard the International Space Station.
-            </p>
+            <p className="px-4 pb-4">{t("proven_outgassing_desc")}</p>
           </div>
         </div>
       </div>

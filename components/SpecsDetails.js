@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const SpecsDetails = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-white">
       <div className="container p-14">
@@ -11,119 +13,104 @@ const SpecsDetails = () => {
           <div className="flex flex-col mt-14 lg:w-1/2 w-full px-6">
             <div className="">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
-                Device
+                {t("device")}
               </h4>
               <table className="table-fixed pt-2 border-2 text-xs">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Build volume
+                      {t("build_volume_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      400 x 300 x 300 mm (15.7 x 11.8 x 11.8 in)*
-                    </td>
+                    <td className="w-1/2 p-2">{t("build_volume")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Nozzle diameter
+                      {t("nozzle_diameter_title")}
                     </td>
-                    <td className="w-1/2 p-2">0.4 mm (0.016 in)</td>
+                    <td className="w-1/2 p-2">{t("nozzle_diameter")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 text-right border-r-2">
-                      Extruder
+                      {t("extruder_title")}
                     </td>
-                    <td className="w-1/2 p-2">Dual material</td>
+                    <td className="w-1/2 p-2">{t("extruder")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Extruder cooling system
+                      {t("extruder_cooling_system_title")}
                     </td>
                     <td className="w-1/2 p-2">
-                      Two fans cooling the extruder, radial fan cooling the
-                      print
+                      {t("extruder_cooling_system")}
                     </td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Hotend
+                      {t("hotend_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      High-temperature dual hotend**
-                    </td>
+                    <td className="w-1/2 p-2">{t("hotend")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Platform
+                      {t("platform_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      Heated; aluminum plate coated with PEI
-                    </td>
+                    <td className="w-1/2 p-2">{t("platform")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Material sensors
+                      {t("material_sensors_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      2 x mechanical endstop, 2 x material weight sensor
-                    </td>
+                    <td className="w-1/2 p-2">{t("material_sensors")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Connectivity
+                      {t("connectivity_title")}
                     </td>
-                    <td className="w-1/2 p-2">Wi-Fi, Ethernet, USB</td>
+                    <td className="w-1/2 p-2">{t("connectivity")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Operating System
+                      {t("operating_system_title")}
                     </td>
-                    <td className="w-1/2 p-2">Android</td>
+                    <td className="w-1/2 p-2">{t("operating_system")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Processor
+                      {t("processor_title")}
                     </td>
-                    <td className="w-1/2 p-2">Quad Core</td>
+                    <td className="w-1/2 p-2">{t("processor")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Touchscreen
+                      {t("touchscreen_title")}
                     </td>
-                    <td className="w-1/2 p-2">7`&#34;` IPS 1024 x 600</td>
+                    <td className="w-1/2 p-2">{t("touchscreen_7in")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Camera
+                      {t("camera_title")}
                     </td>
-                    <td className="w-1/2 p-2">Yes</td>
+                    <td className="w-1/2 p-2">{t("camera")}</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div className="pt-14">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
-                Electrical
+                {t("electrical")}
               </h4>
               <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      AC Input
+                      {t("ac_input_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      120 V ~ 13 A 50/60 Hz <br />
-                      200 - 240 V ~ 9.5 A 50/60 Hz
-                    </td>
+                    <td className="w-1/2 p-2">{t("ac_input")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Maximum Power Consumption
+                      {t("maximum_power_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      120 V - 1600 W<br />
-                      200-240 V - 2300 W
-                    </td>
+                    <td className="w-1/2 p-2">{t("maximum_power")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -136,44 +123,34 @@ const SpecsDetails = () => {
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Software bundle
+                      {t("software_bundle_title")}
                     </td>
                     <td className="w-1/2 p-2">Z-SUITE</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Supported input file types
+                      {t("supported_input_title")}
                     </td>
                     <td className="w-1/2 p-2">.stl, .obj, .dxf, .3mf, .ply</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Supported operating system
+                      {t("supported_os_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      Mac OS Mojave and newer versions / Windows 7 and newer
-                      versions
-                    </td>
+                    <td className="w-1/2 p-2">{t("supported_os")}</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div className="pt-14">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
-                In the box
+                {t("in_the_box_title")}
               </h4>
               <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-medium w-full p-2 border-r-2">
-                      3D printer, Z-SUITE, Starter Kit, Maintenance Kit, spool
-                      of model material, spool of support material, spool of
-                      high-temperature model material, spool of high-temperature
-                      support material, USB memory stick. <br />
-                      Maintenance Kit contents: material endstop (2 pcs.),
-                      extruder filament gear (2 pcs.), extruder, filters set
-                      (carbon & HEPA) (2 pcs.), PEI plate (2 pcs.),
-                      high-temperature hotend module (2 pcs.), extruder cable.
+                      {t("in_the_box")}
                     </td>
                   </tr>
                 </tbody>
@@ -183,82 +160,72 @@ const SpecsDetails = () => {
           <div className="flex flex-col mt-14 lg:w-1/2 px-6">
             <div className="">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
-                Printing
+                {t("printing")}
               </h4>
               <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Technology
+                      {t("technology_title")}
                     </td>
                     <td className="w-1/2 p-2">
-                      <p>
-                        LPD Plus (Layer Plastic Deposition Plus) advanced
-                        technology depositing melted thermoplastics with
-                        break-away and dissolvable support structures
-                      </p>
+                      <p>{t("technology")}</p>
                     </td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Layer Resolution
+                      {t("layer_resolution_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      200-250 microns (for 0.4 mm nozzle)
-                    </td>
+                    <td className="w-1/2 p-2">{t("layer_resolution")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Minimal wall thickness
+                      {t("minimal_wall_thickness_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      450 microns (for 0.4 mm nozzle)
-                    </td>
+                    <td className="w-1/2 p-2">{t("minimal_wall_thickness")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Platform leveling
+                      {t("platform_leveling_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      Automatic measurement of platform points height
-                    </td>
+                    <td className="w-1/2 p-2">{t("platform_leveling")}</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div className="pt-14">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
-                Temperature
+                {t("temperature")}
               </h4>
               <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Maximum printing temperature (extruder)
+                      {t("max_printing_temp_title")}
                     </td>
                     <td className="w-1/2 p-2">480 °C (896 °F)</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Maximum platform temperature
+                      {t("max_platform_title")}
                     </td>
                     <td className="w-1/2 p-2">220 °C (428 °F)</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Maximum build chamber temperature
+                      {t("chamber_temp_title")}
                     </td>
                     <td className="w-1/2 p-2">200 °C (392 °F)</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Ambient operation temperature
+                      {t("ambient_operation_temp_title")}
                     </td>
                     <td className="w-1/2 p-2">17-30 °C (63 - 86 °F)</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Storage temperature
+                      {t("storage_temperature_title")}
                     </td>
                     <td className="w-1/2 p-2">0-35 °C (32 - 95 °F)</td>
                   </tr>
@@ -267,60 +234,47 @@ const SpecsDetails = () => {
             </div>
             <div className="pt-14">
               <h4 className="font-semibold text-center text-xl py-2 bg-[#f1f1f1] border-2">
-                Filaments
+                {t("filaments")}
               </h4>
               <table className="table-fixed pt-2 border-2 text-xs w-full">
                 <tbody>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Dedicated for single extrusion
+                      {t("dedicated_for_single_extrusion_title")}
                     </td>
                     <td className="w-1/2 p-2">Z-PEI 9085, Z-ULTRAT Plus</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Dedicated for dual extrusion
+                      {t("dedicated_for_dual_extrusion_title")}
                     </td>
                     <td className="w-1/2 p-2">
-                      Z-PEEK, Z-PEI 1010, Z-PEI 9085, Z-ULTRAT Plus, Z-SUPPORT
-                      High-Temp (breakaway), Z-SUPPORT ATP (soluble with
-                      Z-SUPPORT ATP Activator), Z-SUPPORT ATP 130 (soluble with
-                      Z-SUPPORT ATP Activator)
+                      {t("dedicated_for_dual_extrusion")}
                     </td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      External materials
+                      {t("external_materials_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      Printing profiles available for filaments based on PEEK,
-                      PEI 9085, PEI 1010 and ABS
-                    </td>
+                    <td className="w-1/2 p-2">{t("external_materials")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Support
+                      {t("support_title")}
                     </td>
-                    <td className="w-1/2 p-2">
-                      Mechanically removed - printed with the same material as
-                      the model;
-                      <br /> Breakaway - printed with a different material than
-                      the model;
-                      <br /> Soluble - printed with a different material than
-                      the model
-                    </td>
+                    <td className="w-1/2 p-2">{t("support")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Filament container
+                      {t("filament_container_title")}
                     </td>
-                    <td className="w-1/2 p-2">Spool</td>
+                    <td className="w-1/2 p-2">{t("filament_container")}</td>
                   </tr>
                   <tr className="border-2">
                     <td className="font-bold w-1/2 p-2 border-r-2 text-right">
-                      Filament diameter
+                      {t("filament_diameter_title")}
                     </td>
-                    <td className="w-1/2 p-2">1.75 mm (0.069 in)</td>
+                    <td className="w-1/2 p-2">{t("filament_diameter")}</td>
                   </tr>
                 </tbody>
               </table>

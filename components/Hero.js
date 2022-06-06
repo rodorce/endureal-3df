@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-
+import { useTranslation } from "react-i18next";
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative">
       <div className="absolute bg-black w-full h-full -z-10">Hero</div>
@@ -18,16 +19,10 @@ const Hero = () => {
               zortrax endureal
             </h1>
             <h2 className="font-normal text-2xl text-center lg:text-left lg:text-4xl text-white pb-5">
-              El futuro de las líneas de producción
+              {t("future_production")}
             </h2>
             <p className="text-white lg:text-base text-sm">
-              Advanced thermal management enabling efficient work with
-              high-performance polymers is what third generation 3D printers are
-              all about, according to the industry’s thought leaders.
-              Temperature of filaments in Zortrax Endureal LPD Plus 3D printer
-              is tightly controlled at each stage of processing to achieve
-              utmost precision and best possible mechanical properties of 3D
-              printed parts.
+              {t("hero_description")}
             </p>
           </div>
           <div>
